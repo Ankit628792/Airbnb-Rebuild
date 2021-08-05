@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { SearchIcon, GlobeAltIcon, UserCircleIcon } from '@heroicons/react/solid'
 import { useState, useEffect } from 'react';
+import InputField from './InputField';
 
 function Header() {
 
@@ -26,10 +27,7 @@ function Header() {
                 </svg>
             </div>
 
-            <div className="flex items-center md:border-2 rounded-full bg-white py-2 md:shadow-sm md:hover:shadow">
-                <input className={`flex-grow pl-5 bg-transparent outline-none text-sm text-white placeholder-gray-400 ${scrolled && 'text-gray-500'}`} type="text" placeholder="Start your search" />
-                <SearchIcon className="h-8 hidden md:inline-flex text-white rounded-full p-2 bg-red-400 cursor-pointer md:mx-2" />
-            </div>
+            <InputField />
 
             <div className={`flex items-center space-x-4 justify-end text-white ${scrolled && 'text-gray-500'}`}>
                 <p className="hidden md:inline cursor-pointer">Become a host</p>
