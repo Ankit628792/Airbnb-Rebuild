@@ -3,43 +3,43 @@ function Footer() {
         <>
         <div className=" bg-white text-gray-600">
 
-            <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-y-10 py-10 px-10 sm:px-16">
+            <div className="footer max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-y-10 py-10 px-10 sm:px-16">
                 <div className="space-y-3 text-gray-800">
                     <h5 className="font-bold">ABOUT</h5>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">How Airbnb Works</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Newsroom</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Airbnb 2021</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Investors</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Airbnb Plus</p>
+                    <p>How Airbnb Works</p>
+                    <p>Newsroom</p>
+                    <p>Airbnb 2021</p>
+                    <p>Investors</p>
+                    <p>Airbnb Plus</p>
                 </div>
                 <div className="space-y-3 text-gray-800">
                     <h5 className="font-bold">COMMUNITY</h5>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Diversity & Belonging</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Accessibility</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Airbnb Associates</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Frontline Stays</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Guest Referrals</p>
+                    <p>Diversity & Belonging</p>
+                    <p>Accessibility</p>
+                    <p>Airbnb Associates</p>
+                    <p>Frontline Stays</p>
+                    <p>Guest Referrals</p>
                 </div>
                 <div className="space-y-3 text-gray-800">
                     <h5 className="font-bold">HOST</h5>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Host your home</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Host an Online Experience</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Responsible hosting</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Resource Centre</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Community Centre</p>
+                    <p>Host your home</p>
+                    <p>Host an Online Experience</p>
+                    <p>Responsible hosting</p>
+                    <p>Resource Centre</p>
+                    <p>Community Centre</p>
                 </div>
                 <div className="space-y-3 text-gray-800">
                     <h5 className="font-bold">SUPPORT</h5>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Our COVID-19 Response</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Help Centre</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Cancellation options</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Neighbourhood Support</p>
-                    <p className="cursor-pointer hover:text-gray-500 hover:scale-105 transition duration-150 ease-in-out">Trust & Safety</p>
+                    <p>Our COVID-19 Response</p>
+                    <p>Help Centre</p>
+                    <p>Cancellation options</p>
+                    <p>Neighbourhood Support</p>
+                    <p>Trust & Safety</p>
                 </div>
 
             </div>
             <hr />
-            <p className="text-center text-xl p-5 font-semibold">
+            <p className="text-center text-xl p-5 font-medium">
                 Design & Developed by <a href="https://instagram.com/ankit_628792" target="_blank" rel="noreferrer" className="text-red-400">Ankit</a> <br className="sm:hidden" /> &copy; 2021 All right reserved
             </p>
 
