@@ -1,6 +1,7 @@
 import Image from 'next/image'
+import InputField from './InputField'
 
-function Banner() {
+function Banner({ scrolled, page }) {
     return (
         <div className="relative h-[400px] sm:h-[450px] lg:h-[550px] xl:h-[650px] 2xl:h-[750px] w-full">
             <Image
@@ -10,14 +11,15 @@ function Banner() {
             />
 
             <div className="absolute w-full h-full flex items-center justify-center flex-col text-center bg-black bg-opacity-20 p-1">
+                <InputField scrolled={scrolled} page={page} />
                 <p className="text-3xl sm:text-5xl xl:text-6xl text-white font-bold">Not sure where to go? Perfect.</p>
                 <button className="text-purple-500 text-lg bg-white px-10 py-4 shadow-md rounded-full font-bold mt-4 xl:mt-6 hover:shadow-xl active:scale-90 transition duration-150">
                     I'm flexible
                 </button>
             </div>
-            
+
         </div>
-        
+
     )
 }
 

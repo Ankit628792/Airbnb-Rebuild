@@ -11,7 +11,7 @@ function ExtraLargeCard({ img, title, desc, buttonText, textColor }) {
             <div className={`absolute top-16 rounded-2xl h-96 p-10 sm:px-16 bg-opacity-50 bg-gradient-to-r from-white to-transparent font-medium flex flex-col justify-center items-start max-w-sm md:max-w-lg filter ${textColor}`}>
                 <h3 className="text-4xl md:text-5xl font-bold tracking-wide">{title}</h3>
                 <p className="py-2 text-lg">{desc}</p>
-                <button className="text-base text-white bg-gray-900 px-4 py-2 rounded-lg mt-2 active:scale-95 transition duration-150">{buttonText}</button>
+                <button className="text-base text-white bg-gray-900 px-4 py-3 rounded-lg mt-2 active:scale-95 transition duration-150">{buttonText}</button>
             </div>
 
         </section>
