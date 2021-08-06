@@ -3,3 +3,16 @@
         display: none;
     }
 }
+
+
+@media(min-width: 600px){
+    .mapboxgl-popup-content{
+        color: #000;
+    }
+    .mapboxgl-popup-content button{
+        display: none;
+    }
+    .mapboxgl-map{
+        filter: saturate(2) contrast(1.5);
+    }
+}
