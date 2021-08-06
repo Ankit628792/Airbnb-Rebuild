@@ -29,7 +29,7 @@ function InfoCard({ img, location, title, desc, star, price, total }) {
                     <p className="flex items-center">
 
                         {Array(Math.floor(star)).fill().map((_, i) =>
-                            <StarIcon className="h-5 text-red-500" />
+                            <StarIcon key={i} className="h-5 text-red-500" />
                         )}
                         &nbsp;{Math.floor(star)}</p>
 

@@ -26,7 +26,7 @@ function Header({ page, placeholder }) {
 
     return (
         <>
-            <header className={`fixed w-full top-0 z-50 flex items-center justify-between p-4 md:px-10 bg-white ${(scrolled || page !== 'home') ? 'shadow-md' : 'bg-opacity-20'} transition duration-150 ease-in-out`} >
+            <header className={`fixed w-full top-0 z-50 bg-white ${(scrolled || page !== 'home') ? 'shadow-md' : 'bg-opacity-20'} flex items-center justify-between p-4 md:px-10 transition duration-150 ease-in-out`} >
 
                 <div className="relative flex items-center p-1 w-10 sm:w-32 cursor-pointer my-auto"
                     onClick={() => router.push('/')}
