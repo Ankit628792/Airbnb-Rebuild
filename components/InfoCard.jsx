@@ -6,8 +6,8 @@ import { useState } from 'react'
 function InfoCard({ img, location, title, desc, star, price, total }) {
     const [liked, setLiked] = useState(false)
     return (
-        <div className="flex flex-col sm:flex-row p-4 my-3 border-b cursor-pointer rounded-xl bg-white hover:opacity-90 hover:scale-[0.99] hover:shadow-lg transition transform duration-200 ease-out">
-            <div className="relative h-52 w-full sm:h-52 sm:w-60 md:w-80 flex-shrink-0">
+        <div className="flex flex-col sm:flex-row p-4 max-w-5xl my-3 border-b cursor-pointer rounded-xl bg-white hover:opacity-90 hover:scale-[0.99] hover:shadow-lg transition transform duration-200 ease-out">
+            <div className="relative h-52 w-full sm:h-52 sm:w-60 md:w-80 lg:w-60 flex-shrink-0">
                 <Image
                     src={img}
                     layout="fill"

@@ -37,7 +37,7 @@ function Map({ searchResults }) {
                             <div className="w-9 h-9 cursor-pointer text-xl animate-bounce"
                                 aria-label="push-pin"
                                 onClick={() => setSelectedLocation(item)}
-                                >
+                            >
                                 <img src="/images/map-pin.png" alt="" />
                             </div>
                         </Marker>
