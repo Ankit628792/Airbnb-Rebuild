@@ -33,7 +33,7 @@ function search({ searchResults }) {
                         <p className="button">Rooms and Beds</p>
                         <p className="button">More Filters</p>
                     </div>
-                    <p className="pb-2 leading-10">Review COVID-19 travel restrictions before you book. <a href="https://www.airbnb.co.in/help/topic/1418/government-travel-restrictions-and-advisories" className="bg-white py-2 px-4 rounded-full block sm:inline-block cursor-pointer text-red-400 hover:text-red-600 active:scale-95 transition transform duration-150 ease-out">Learn more</a></p>
+                    <p className="pb-2 leading-10">Review COVID-19 travel restrictions before you book. <a href="https://www.airbnb.co.in/help/topic/1418/government-travel-restrictions-and-advisories" className="bg-white py-2 px-4 rounded-full inline-block cursor-pointer text-red-400 hover:text-red-600 active:scale-95 transition transform duration-150 ease-out">Learn more</a></p>
                     <div className="w-full border-b pb-2" />
                     <div className="flex flex-col">
                         {
