@@ -40,7 +40,7 @@ function Footer() {
                 </div>
                 <hr />
                 <p className="text-center text-xl p-5 font-medium">
-                    Design & Developed by <a href="https://http://ak-portfolio.vercel.app/" target="_blank" rel="noreferrer" className="text-red-400">Ankit</a> <br className="sm:hidden" /> &copy; 2021 All right reserved
+                    Design & Developed by <a href="https://ak-portfolio.vercel.app/" target="_blank" rel="noreferrer" className="text-red-400">Ankit</a> <br className="sm:hidden" /> &copy; 2021 All right reserved
                 </p>
 
             </div>
