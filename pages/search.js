@@ -16,9 +16,9 @@ function search({ searchResults }) {
     return (
         <div className="min-h-screen bg-gray-100">
             <Head>
-        <title>Airbnb | {location}</title>
-        <link rel="icon" href="/favicon.png" />
-      </Head>
+                <title>Airbnb | {location}</title>
+                <link rel="icon" href="/favicon.png" />
+            </Head>
             <Header page="search" placeholder={`${location} | ${range} | ${noOfGuests} guest`} />
 
             <main className="flex flex-col-reverse xl:flex-row xl:max-h-screen xl:overflow-y-hidden">
@@ -65,7 +65,12 @@ function search({ searchResults }) {
 export default search
 
 export async function getServerSideProps() {
-    const searchResults = await fetch('https://links.papareact.com/isz').then((res) => res.json())
+    let searchResults = []
+    try {
+        searchResults = await fetch('https://www.jsonkeeper.com/b/5NPS').then((res) => res.json())
+    } catch (error) {
+        console.log(error)
+    }
 
     return {
         props: {
